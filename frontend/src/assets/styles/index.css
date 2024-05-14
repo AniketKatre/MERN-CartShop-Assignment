@@ -1,0 +1,69 @@
+main {
+  min-height: 80vh;
+}
+body{
+  background-color: rgb(3, 14, 66);
+  color: #ffffff;
+}
+
+.rating svg {
+  color: #f8e825;
+}
+
+.rating-text {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding-left: 0.5rem;
+}
+
+.product-title {
+  height: 2.5em; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  white-space: nowrap; 
+}
+
+.product-body {
+  text-decoration: none;
+  height: 3.4em; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  opacity: 60%;
+  padding: 4px;
+  margin: 5px;
+}
+
+.procard{
+  background-color: rgb(33, 26, 128);
+  box-shadow: -2px 11px 15px 0px rgba(224,205,205,0.42);
+-webkit-box-shadow: -2px 11px 15px 0px rgba(224,205,205,0.42);
+-moz-box-shadow: -2px 11px 15px 0px rgba(224,205,205,0.42);
+}
+.cardtextor{
+  color: #26e70c;
+  opacity: 80%;
+
+}
+.procard div{
+  background-color: rgb(42, 40, 88);
+  color: #ffffff;
+  
+}
+
+table th, td, tr{
+  color: #ffffff;
+}
+
+table td,
+table th {
+  text-align: center;
+ 
+}
+
+
+.headernav{
+  background-color: rgb(9, 5, 54);
+}
+.checkoutstep {
+  color: #ffffff;
+}
