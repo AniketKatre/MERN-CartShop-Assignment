@@ -1,4 +1,4 @@
-live: https://shopify-annie.onrender.com/
+live: soon
 
 create by me: Aniket Katre (annie_jb)
 
