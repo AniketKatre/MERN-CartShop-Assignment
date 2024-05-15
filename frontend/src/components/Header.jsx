@@ -37,7 +37,9 @@ const Header = () => {
           <LinkContainer to="/">
             <Navbar.Brand>
               <img src={mylogo} alt="mylogo" />
-              <strong> &nbsp; &nbsp; S h o p C a r t &nbsp; &nbsp;</strong>
+
+              <strong> &nbsp; &nbsp; S H O P - C A R T &nbsp; &nbsp;</strong>
+
               <i>
                 <small style={{ fontSize: "13px" }}>.ann .in</small>
               </i>

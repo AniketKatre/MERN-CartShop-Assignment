@@ -82,7 +82,7 @@ const ProductScreen = () => {
                   <h3>{product.name}</h3>
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  <h3>Rating: 4.2/5</h3>
+                  <p>Rating: 4.2/5</p>
                 </ListGroup.Item>
                 <ListGroup.Item>Price: ${product.price}</ListGroup.Item>
 

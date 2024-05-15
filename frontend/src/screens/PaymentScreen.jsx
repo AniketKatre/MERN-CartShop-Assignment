@@ -36,11 +36,13 @@ const PaymentScreen = () => {
 
         <Form onSubmit={submitHandler}>
           <Form.Group>
-            <Form.Label as="legend">Select Method</Form.Label>
+            <Form.Label as="legend" className="my-3">
+              Select Method
+            </Form.Label>
             <Col>
               <Form.Check
                 type="radio"
-                className="my2"
+                className="my-3"
                 label="PayPal or Credit Card"
                 id="Paypal"
                 name="paymentMethod"
@@ -49,8 +51,44 @@ const PaymentScreen = () => {
                 onChange={(e) => setPaymentMethod(e.target.value)}
               ></Form.Check>
             </Col>
+            <Col>
+              <Form.Check
+                type="radio"
+                className="my-3"
+                label="Cash on delivery"
+                id="Paypal"
+                name="paymentMethod"
+                value="Paypal"
+                checked
+                onChange={(e) => setPaymentMethod(e.target.value)}
+              ></Form.Check>
+            </Col>
+            <Col>
+              <Form.Check
+                type="radio"
+                className="my-3"
+                label="Debit Card"
+                id="Paypal"
+                name="paymentMethod"
+                value="Paypal"
+                checked
+                onChange={(e) => setPaymentMethod(e.target.value)}
+              ></Form.Check>
+            </Col>
+            <Col>
+              <Form.Check
+                type="radio"
+                className="my-3"
+                label="Gift Card"
+                id="Paypal"
+                name="paymentMethod"
+                value="Paypal"
+                checked
+                onChange={(e) => setPaymentMethod(e.target.value)}
+              ></Form.Check>
+            </Col>
           </Form.Group>
-          <Button type="submit" variant="primary " className="btn-info">
+          <Button type="submit" variant="primary " className="btn-info my-3">
             Continue
           </Button>
         </Form>

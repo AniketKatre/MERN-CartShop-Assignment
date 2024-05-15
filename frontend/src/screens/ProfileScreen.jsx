@@ -38,7 +38,15 @@ const ProfileScreen = () => {
       <Col md={3}>
         <h2>Developer Profile</h2>
 
-        <img src={mylogo} alt="mylogo" />
+        <img
+          src={mylogo}
+          alt="mylogo"
+          style={{
+            width: "150px",
+            borderRadius: "20px",
+            border: "2px groove white",
+          }}
+        />
         <p>Aniket Katre</p>
         <p>mailto: katreaniket3@gmail.com</p>
         <p>cell: +91-7972256381</p>
