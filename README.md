@@ -1,4 +1,4 @@
-live: soon
+live: https://mern-cartshop-assignment.onrender.com 🔗🔗🔗
 
 create by me: Aniket Katre (annie_jb)
 
