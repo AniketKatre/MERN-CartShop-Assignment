@@ -79,6 +79,7 @@ const LoginScreen = () => {
             New Customer?{" "}
             <Link
               to={redirect ? `/register?redirect=${redirect}` : "/register"}
+              style={{ color: "white" }}
             >
               Register
             </Link>
